@@ -104,7 +104,7 @@
 ③ control 속성 : 브라우저에 재생, 일시중지 등 동영상 컨트롤 버튼이 포함되도록 지시함
 
 
-### 코드 예시 (출처 : Codecademy)
+## 코드 예시 (출처 : Codecademy)
 ```
 <body>
   <h1>The Brown Bear</h1>
@@ -139,6 +139,8 @@
   </div>
 </body>
 ```
+
+## 코드에 따른 브라우저 표시 화면
 
 <body>
   <h1>The Brown Bear</h1>
