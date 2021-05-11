@@ -1,6 +1,6 @@
-#Javascript #1 변수
+# Javascript #1 변수
 
-##변수사용법
+## 변수사용법
 - 변수 : 데이터를 담는 메모리
 
 1. 보관함 확보 : 선언 (Declaration)
