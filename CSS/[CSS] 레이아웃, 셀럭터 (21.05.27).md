@@ -40,17 +40,15 @@ div[class$="2"] { }
 div[class*="w"] { }
 ```
 
-- 후손 셀렉터 (descedant selector)
+- 후손 셀렉터 (descedant selector) : 자식, 손자, 후손을 포함한 모든 자손에 해당
 ```css
 header h1 {}
 ```
--자식, 손자, 후손을 포함한 모든 자손에 해당
 
-- 자식 셀렉터 (child selector)
+- 자식 셀렉터 (child selector) : 특정 요소 바로 아래 있는 직계자손만 선택
 ```css
 header > p { }
 ```
--특정 요소 바로 아래 있는 직계자손만 선택
 
 - 인접 형제 셀렉터
 ```css
