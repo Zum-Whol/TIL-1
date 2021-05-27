@@ -1,20 +1,24 @@
 # CSS 레이아웃과 셀렉터 
 - (2021.05.27)
 
-## 셀렉터들
+## 1. 셀렉터(Selector) 리스트
 - 셀렉터
 ```css
 h1 { }
 div { }
 ```
+
 - 전체 셀렉터
 ```css
 * { }
 ```
+
 - Tag 셀렉터
 ```css
 section, h1 { }
 ```
+
+
 - ID 셀렉터
 ```css
 #only { }
@@ -24,6 +28,7 @@ section, h1 { }
 .widget { }
 .center { }
 ```
+
 - attribute 셀렉터 (암기할 필요는 없습니다)
 ```css
 a[href] { }
@@ -34,38 +39,45 @@ section[id^="sect"] { }
 div[class$="2"] { }
 div[class*="w"] { }
 ```
+
 - 후손 셀렉터
 ```css
 header h1 {}
 ```
-- 자식 셀렉터 (후손 셀렉터와의 차이를 반드시 알고 있어야 합니다)
 
+- 자식 셀렉터 (후손 셀렉터와의 차이를 반드시 알고 있어야 합니다)
+```css
 header > p { }
+```
 
 - 인접 형제 셀렉터
-
+```css
 section + p { }
+```
 
 - 형제 셀렉터
-
+```css
 section ~ p { }
+```
 
 - 가상 클래스
-
+```css
 a:link { }
 a:visited { }
 a:hover { }
 a:active { }
 a:focus { }
+```
 
 - 요소 상태 셀렉터
-
+```css
 input:checked + span { }
 input:enabled + span { }
 input:disabled + span { }
+```
 
 - 구조 가상 클래스 셀렉터 (암기할 필요는 없습니다)
-
+```css
 p:first-child { }
 ul > li:last-child { }
 ul > li:nth-child(2n) { }
@@ -79,13 +91,16 @@ p:first-of-type { }
 div:last-of-type { }
 ul:nth-of-type(2) { }
 p:nth-last-of-type(1) { }
+```
 
 - 부정 셀렉터
-
+```css
 input:not([type="password"]) { }
 div:not(:nth-of-type(2)) { }
+```
 
 - 정합성 확인 셀렉터
-
+```css
 input[type="text"]:valid { }
 input[type="text"]:invalid { }
+```
