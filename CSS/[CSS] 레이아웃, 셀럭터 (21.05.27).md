@@ -1,31 +1,31 @@
-#CSS 레이아웃과 셀렉터 
+# CSS 레이아웃과 셀렉터 
 - (2021.05.27)
 
-##셀렉터들
+## 셀렉터들
 - 셀렉터
-```
+```css
 h1 { }
 div { }
 ```
 - 전체 셀렉터
-
+```css
 * { }
-
+```
 - Tag 셀렉터
-
+```css
 section, h1 { }
-
+```
 - ID 셀렉터
-
+```css
 #only { }
-
+```
 - class 셀렉터
-
+```css
 .widget { }
 .center { }
-
+```
 - attribute 셀렉터 (암기할 필요는 없습니다)
-
+```css
 a[href] { }
 p[id="only"] { }
 p[class~="out"] { }
@@ -33,11 +33,11 @@ p[class|="out"] { }
 section[id^="sect"] { }
 div[class$="2"] { }
 div[class*="w"] { }
-
+```
 - 후손 셀렉터
-
+```css
 header h1 {}
-
+```
 - 자식 셀렉터 (후손 셀렉터와의 차이를 반드시 알고 있어야 합니다)
 
 header > p { }
