@@ -141,8 +141,11 @@
   - 관리자 권한으로 변경한 내용은 사용자 권한으로 변경 불가능
 
 - sudo 명령어
+
   - 기능 : 사용자 환경에서 관리자 권한 획득하는 명령어
+  
   - 문법 : 명령어 앞에 sudo 붙이기 (예시 : ```sudo mkdir```)
+  
   - ```ls -l```을 확인해보면 sudo 명령어로 생성한 파일의 소유자 사용자(jacob)가 아닌 관리자(root)
   
   <img width="500" alt="그림1" src="https://user-images.githubusercontent.com/80403988/126121092-ea8254bf-e5b8-440f-a915-5c5db1ebf958.png">
