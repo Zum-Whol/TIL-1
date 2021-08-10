@@ -1,1 +1,95 @@
+# Node.js와 패키지 매니저
 
+
+***
+
+## 패키지 매니저
+
+### 1. 패키지
+- 리눅스의 압출 파일 같은 역할
+- 프로그램 파일, 설치 파일, 설치 설명서, 프로그램 정보가 담긴 파일로 구성
+- 패키지 매니저 : 앱스토어 같은 역할
+
+### 2. 패키지 매니저
+- 패키지의 설치, 변경, 삭제 등 관리를 편리하게 해주는 도구
+- 앱스토어 같은 역할
+
+### 3. Mac OS의 패키지 매니저인 Homebrew 설치하기
+
+- X code를 먼저 설치해야 함 : ```xcode-select --install```
+
+- homebrew 설치 : Homebrew 사이트의 내용을 터미널에 복사/붙여넣기
+
+- 설치 확인
+  - Installation successful! 메세지 확인
+  - Next Step 하기
+  - Brew help 명령어 입력하여 정상적으로 설치되었는지 확인
+
+- Homebrew를 통해 다른 프로그램 설치
+  - 문법 : ```brew install 프로그램 이름```
+  - ``` brew wget```, ```brew neofetch```
+
+### 4. brew 명령어
+- brew update: 패키지의 업데이트 여부 확인
+- brew outdated: 업데이트 필요한 파일 조회
+- brew upgrade: 프로그램 업그레이드
+- brew info: 프로그램의 정보 확인
+- brew install: 프로그램 설치
+- brew list: 설치된 프로그램 목록 보기
+- brew uninstall: 프로그램 삭제
+
+***
+
+## Node.js
+
+### 1. Node.js : JavaScript의 런타임
+- 런타임(runtime) : 프로그래밍 언어가 실행되는 환경
+- JavsScript의 런타임(runtime) : 웹 브라우저(크롬 등)와 node.js
+- 이전에는 JavaScript를 브라우저에서만 실행 가능했으나 node.js라는 런타임의 등장
+- node.js에서 JavaScript 파일 실행 명령어 : ```node 파일명```
+
+### 2. nvm을 통한 Node.js 설치 및 버전관리
+
+- nvm 설치 : - ```wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh```
+
+- nvm 설치 확인 및 버전 조회 : ```nvm --version```
+
+- node.js 설치 : ```nvm install --lts```
+- node.js 설치 확인 및 버전 조회 : ```node -v```
+
+### nvm(Node Version Manager) 사용법
+
+- 이미 설치된 버전을 삭제하지 않고, 우리가 원하는 node version을 설치하여 버전 변경 가능
+
+- 설치한 node version들 확인 : ```nvm ls```
+
+- 이미 설치된 버전 삭제하지 않고 새 버전 설치 : ```nvm install 12.18.3 ```
+
+- 사용중인 node version을 다른 버전으로 변경하기 : ```nvm use 버전넘버```
+
+***
+
+## npm & package.json
+
+### npm (Node Package Manager)
+- npm : node.js의 패키지 매니저 (cf - mac OS의 패키지 매니저 : brew)
+- 모듈을 node.js에서 npm으로 불러올 수 있음 (모듈 : 타인이 이미 만들어놓은 검증된 코드)
+- package.json : node.js에서 npm을 통해 다운받은 npm 모듈 정보가 담긴 곳
+
+### packages.json
+- 프로젝트(package)전반에 관한 정보가 들어있으며 어떤 모듈을 사용했는지 알려주는 카탈로그 역할
+- 프로그램을 실행시키기 위해 필요한 모듈, 프로그램을 실행시키는 방법, 프로그램을 테스트하는 방법 등을 명시
+- 실제 모듈은 따로 node_modules이라는 폴더에 저장되며, package.json에는 어떤 모듈인지만 적혀 있음
+- packages.json에 적힌 모듈을 다운받는 명령어 : ```npm install```
+
+### packages.json 구성 요소
+
+- devDependencies : 실제 프로젝트 동작과는 무관하고 개발 환경하여 필요한 모듈
+
+  - devDependencies에 모듈 설치 명령어 : ```npm install mocha --save-dev 모듈명 ```
+
+- dependencies : 프로젝트가 돌아가기 위해 반드시 필요한 모듈 (ex. React)
+
+  - dependencies에 모듈 설치 명령어 : ```npm install 모듈명```, ```npm install --save 모듈명```
+
+- script 항목 :  CLI에서 사용가능한 명령(npm script)을 기술
