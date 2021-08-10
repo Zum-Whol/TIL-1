@@ -58,7 +58,7 @@
 - node.js 설치 : ```nvm install --lts```
 - node.js 설치 확인 및 버전 조회 : ```node -v```
 
-### nvm(Node Version Manager) 사용법
+### 3. nvm(Node Version Manager) 사용법
 
 - 이미 설치된 버전을 삭제하지 않고, 우리가 원하는 node version을 설치하여 버전 변경 가능
 
@@ -72,18 +72,18 @@
 
 ## npm & package.json
 
-### npm (Node Package Manager)
+### 1. npm (Node Package Manager)
 - npm : node.js의 패키지 매니저 (cf - mac OS의 패키지 매니저 : brew)
 - 모듈을 node.js에서 npm으로 불러올 수 있음 (모듈 : 타인이 이미 만들어놓은 검증된 코드)
 - package.json : node.js에서 npm을 통해 다운받은 npm 모듈 정보가 담긴 곳
 
-### packages.json
+### 2. packages.json
 - 프로젝트(package)전반에 관한 정보가 들어있으며 어떤 모듈을 사용했는지 알려주는 카탈로그 역할
 - 프로그램을 실행시키기 위해 필요한 모듈, 프로그램을 실행시키는 방법, 프로그램을 테스트하는 방법 등을 명시
 - 실제 모듈은 따로 node_modules이라는 폴더에 저장되며, package.json에는 어떤 모듈인지만 적혀 있음
 - packages.json에 적힌 모듈을 다운받는 명령어 : ```npm install```
 
-### packages.json 구성 요소
+### 3. packages.json 구성 요소
 
 <img width="700" alt="스크린샷 2021-08-10 오후 1 44 38" src="https://user-images.githubusercontent.com/80403988/128810748-e14ff2bb-4283-46c6-8513-8321a4a268c4.png">
 
