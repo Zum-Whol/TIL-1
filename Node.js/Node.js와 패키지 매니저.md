@@ -85,9 +85,7 @@
 
 ### packages.json 구성 요소
 
-<img width="400" alt="스크린샷 2021-08-10 오후 1 44 38" src="https://user-images.githubusercontent.com/80403988/128810748-e14ff2bb-4283-46c6-8513-8321a4a268c4.png">
-<img width="400" alt="스크린샷 2021-08-10 오후 2 00 30" src="https://user-images.githubusercontent.com/80403988/128810754-85ac3c22-9c10-41a0-a92e-328baeb6bd36.png">
-
+<img width="700" alt="스크린샷 2021-08-10 오후 1 44 38" src="https://user-images.githubusercontent.com/80403988/128810748-e14ff2bb-4283-46c6-8513-8321a4a268c4.png">
 
 - devDependencies : 실제 프로젝트 동작과는 무관하고 개발 환경하여 필요한 모듈
 
