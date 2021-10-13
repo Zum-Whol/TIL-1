@@ -9,5 +9,6 @@
 
 ![logo](https://user-images.githubusercontent.com/80403988/136531547-2361d5f1-24bb-4028-a06a-e4ce012f7c2c.png)
 
+<img width="887" alt="스크린샷 2021-10-14 오전 1 04 17" src="https://user-images.githubusercontent.com/80403988/137171683-fbb45d64-9d40-45f2-ad4d-85481fae5857.png">
 
-<img width="704" alt="스크린샷 2021-10-08 오후 6 40 00" src="https://user-images.githubusercontent.com/80403988/136534648-4b11612e-ae2e-472f-a8fd-2711eee4d248.png">
+
