@@ -11,4 +11,4 @@
 
 <img width="887" alt="스크린샷 2021-10-14 오전 1 04 17" src="https://user-images.githubusercontent.com/80403988/137171683-fbb45d64-9d40-45f2-ad4d-85481fae5857.png">
 
-
+<img width="510" alt="스크린샷 2021-10-19 오후 10 40 11" src="https://user-images.githubusercontent.com/80403988/137921705-42821903-0740-44e8-a747-9baf246c3b8e.png">
