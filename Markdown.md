@@ -13,6 +13,6 @@
 
 <img width="796" alt="스크린샷 2021-10-20 오후 1 11 43" src="https://user-images.githubusercontent.com/80403988/138027186-fedb6fa9-1f2f-4f5c-a573-536c2a8331fb.png">
 
-<img width="400" alt="스크린샷 2021-10-20 오후 1 16 56" src="https://user-images.githubusercontent.com/80403988/138027591-254251e9-9779-4156-bd9b-80bbb463a21d.png">
-
 <img width="800" alt="스크린샷 2021-10-20 오후 2 39 10" src="https://user-images.githubusercontent.com/80403988/138034439-6cc1a208-7c93-4701-84a1-9ffc86517a0e.png">
+
+<img width="400" alt="스크린샷 2021-10-20 오후 6 09 38" src="https://user-images.githubusercontent.com/80403988/138064375-4bda5d15-eefb-413d-87d6-1c1f0d543ec5.png">
