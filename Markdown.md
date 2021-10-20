@@ -15,4 +15,4 @@
 
 <img width="400" alt="스크린샷 2021-10-20 오후 1 16 56" src="https://user-images.githubusercontent.com/80403988/138027591-254251e9-9779-4156-bd9b-80bbb463a21d.png">
 
-<img width="800" alt="스크린샷 2021-10-20 오후 2 21 29" src="https://user-images.githubusercontent.com/80403988/138033000-87f25a79-0efd-4776-a057-541f5a83a751.png">
+<img width="800" alt="스크린샷 2021-10-20 오후 2 39 10" src="https://user-images.githubusercontent.com/80403988/138034439-6cc1a208-7c93-4701-84a1-9ffc86517a0e.png">
