@@ -19,12 +19,12 @@
 
 - API
 
-<img width="600" alt="스크린샷 2021-10-25 오후 1 52 52" src="https://user-images.githubusercontent.com/80403988/138636598-8c8c8aad-1839-411b-9326-a8c914968b84.png">
+<img width="700" alt="스크린샷 2021-10-25 오후 1 52 52" src="https://user-images.githubusercontent.com/80403988/138636598-8c8c8aad-1839-411b-9326-a8c914968b84.png">
 
-<img width="600" alt="스크린샷 2021-10-25 오후 1 53 04" src="https://user-images.githubusercontent.com/80403988/138636602-c8961b10-d2cb-4a12-987d-ccbbf801ea5b.png">
+<img width="700" alt="스크린샷 2021-10-25 오후 1 53 04" src="https://user-images.githubusercontent.com/80403988/138636602-c8961b10-d2cb-4a12-987d-ccbbf801ea5b.png">
 
-<img width="600" alt="스크린샷 2021-10-25 오후 1 53 14" src="https://user-images.githubusercontent.com/80403988/138636608-17c7e50a-6a69-4867-a7da-a9aa9aa80a15.png">
+<img width="700" alt="스크린샷 2021-10-25 오후 1 53 14" src="https://user-images.githubusercontent.com/80403988/138636608-17c7e50a-6a69-4867-a7da-a9aa9aa80a15.png">
 
-<img width="600" alt="스크린샷 2021-10-25 오후 1 53 33" src="https://user-images.githubusercontent.com/80403988/138636613-1fd60f13-dbd9-4859-a31a-e25c639df8d5.png">
+<img width="700" alt="스크린샷 2021-10-25 오후 1 53 33" src="https://user-images.githubusercontent.com/80403988/138636613-1fd60f13-dbd9-4859-a31a-e25c639df8d5.png">
 
-<img width="600" alt="스크린샷 2021-10-25 오후 1 53 43" src="https://user-images.githubusercontent.com/80403988/138636619-e31e8830-891e-424f-93e7-e4cc5fb3ff30.png">
+<img width="700" alt="스크린샷 2021-10-25 오후 1 53 43" src="https://user-images.githubusercontent.com/80403988/138636619-e31e8830-891e-424f-93e7-e4cc5fb3ff30.png">
