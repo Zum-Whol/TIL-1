@@ -30,3 +30,5 @@
 <img width="700" alt="스크린샷 2021-10-25 오후 1 53 43" src="https://user-images.githubusercontent.com/80403988/138636619-e31e8830-891e-424f-93e7-e4cc5fb3ff30.png">
 
 ![hometownalba](https://user-images.githubusercontent.com/80403988/141236509-0747eebd-3a81-45dd-b403-222a0e1d5801.png)
+
+[링크이름](https://www.hometownalba.com){: target="_blank"}
