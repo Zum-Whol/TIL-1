@@ -47,8 +47,8 @@
 
 ```js
 import React, { useEffect } from "react";
-
 const { kakao } = window;
+
 export default function Map() {
 
   useEffect(()=>{
