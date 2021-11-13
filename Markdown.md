@@ -107,3 +107,46 @@ return (
   지도 표시하기
 )
 ```
+
+```
+var iwContent = `
+<div>회사명 : ${data.companyName}</div>
+<div>근무시간 : ${data.time}</div>
+<div>월급 : ${data.monthlyWage}</div>
+<button onclick="${eventHandler}">지원하기</button>
+`
+
+let infowindowClick = new kakao.maps.InfoWindow({
+  content: iwContent,
+  removable: true,
+    });
+```
+
+```
+let iwContent = document.createElement("div")
+
+let companyName = document.createElement("div")
+companyName.textContent = `회사명 : ${data.companyName}`
+
+let time = document.createElement("div")
+time.textContent = `근무시간 : ${data.time}`
+
+let monthlyWage = document.createElement("div")
+monthlyWage.textContent = `예상 월급여 : ${data[i].monthlyWage}`
+
+let btn = document.createElement("button");
+btn.textContent = `지원하기`;
+btn.onclick = eventHandler;
+
+iwContent.append(
+  companyName,
+  time,
+  monthlyWage,
+  btn
+);
+
+let infowindowClick = new kakao.maps.InfoWindow({
+  content: iwContent,
+  removable: true,
+});
+```
