@@ -108,7 +108,7 @@ return (
 )
 ```
 
-```
+```js
 var iwContent = `
 <div>회사명 : ${data.companyName}</div>
 <div>근무시간 : ${data.time}</div>
@@ -122,7 +122,7 @@ let infowindowClick = new kakao.maps.InfoWindow({
     });
 ```
 
-```
+```js
 let iwContent = document.createElement("div")
 
 let companyName = document.createElement("div")
