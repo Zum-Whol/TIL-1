@@ -160,3 +160,43 @@ kakao.maps.event.addListener(map, "dragend", function () {
   setMapLocation([latlng.Ma, latlng.La]);
 });
 ```
+
+```js
+if (mapLevel <= 4) {
+  return res.data.data.filter(job => {
+    return (
+      parseFloat(job.latitude) >= mapLocation[0] - 0.009 &&
+      parseFloat(job.latitude) <= mapLocation[0] + 0.009 &&
+      parseFloat(job.longitude) >= mapLocation[1] - 0.011 &&
+      parseFloat(job.longitude) <= mapLocation[1] + 0.011
+    );
+  });
+} else if (mapLevel === 5) {
+  return res.data.data.filter(job => {
+    return (
+      parseFloat(job.latitude) >= mapLocation[0] - 0.0225 &&
+      parseFloat(job.latitude) <= mapLocation[0] + 0.0225 &&
+      parseFloat(job.longitude) >= mapLocation[1] - 0.0275 &&
+      parseFloat(job.longitude) <= mapLocation[1] + 0.0275
+    );
+  });
+} else if (mapLevel === 6) {
+  return res.data.data.filter(job => {
+    return (
+      parseFloat(job.latitude) >= mapLocation[0] - 0.045 &&
+      parseFloat(job.latitude) <= mapLocation[0] + 0.045 &&
+      parseFloat(job.longitude) >= mapLocation[1] - 0.055 &&
+      parseFloat(job.longitude) <= mapLocation[1] + 0.055
+    );
+  });
+} else if (mapLevel >= 7) {
+  return res.data.data.filter(job => {
+    return (
+      parseFloat(job.latitude) >= mapLocation[0] - 0.09 &&
+      parseFloat(job.latitude) <= mapLocation[0] + 0.09 &&
+      parseFloat(job.longitude) >= mapLocation[1] - 0.11 &&
+      parseFloat(job.longitude) <= mapLocation[1] + 0.11
+    );
+  });
+}
+```
