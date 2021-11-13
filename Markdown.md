@@ -34,15 +34,13 @@
 
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>React App</title>
-  </head>
+
   <body>
     <div id="root"></div>
+    
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=API키&libraries=services"></script>
+    
   </body>
-</html>
+
 
 ```
