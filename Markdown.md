@@ -150,3 +150,13 @@ let infowindowClick = new kakao.maps.InfoWindow({
   removable: true,
 });
 ```
+
+```js
+kakao.maps.event.addListener(map, "dragend", function () {
+  // 지도 중심좌표를 얻어옵니다
+  let latlng = map.getCenter();
+  setApplyLocation([]);
+  setSearchLocation("");
+  setMapLocation([latlng.Ma, latlng.La]);
+});
+```
