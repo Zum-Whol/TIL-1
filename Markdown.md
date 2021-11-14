@@ -119,8 +119,48 @@ var iwContent = `
 let infowindowClick = new kakao.maps.InfoWindow({
   content: iwContent,
   removable: true,
-    });
+});
 ```
+
+```js
+var iwContent = `
+<div>회사명 : ${data.companyName}</div>
+<div>근무시간 : ${data.time}</div>
+<div>월급 : ${data.monthlyWage}</div>
+<button onclick="eventHandler">지원하기</button>
+<script>
+  function eventHandler () {
+    console.log('인포윈도우 클릭이벤트')
+  }
+</script>
+`
+
+let infowindowClick = new kakao.maps.InfoWindow({
+  content: iwContent,
+  removable: true,
+});
+```
+
+```js
+var iwContent = `
+<div>회사명 : ${data.companyName}</div>
+<div>근무시간 : ${data.time}</div>
+<div>월급 : ${data.monthlyWage}</div>
+<button id="button">지원하기</button>
+<script>
+  button.onclick = function () {
+    console.log('인포윈도우 클릭이벤트')
+  }
+</script>
+`
+
+let infowindowClick = new kakao.maps.InfoWindow({
+  content: iwContent,
+  removable: true,
+});
+```
+
+
 
 ```js
 let iwContent = document.createElement("div")
