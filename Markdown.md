@@ -271,3 +271,19 @@ if (지원/취소 state) {
 
 <img width="255" alt="스크린샷 2021-11-21 오전 1 31 59" src="https://user-images.githubusercontent.com/80403988/142734164-2dd9f57f-725c-457c-be75-1374dacb3944.png">
 
+<img width="259" alt="스크린샷 2021-11-21 오전 1 46 57" src="https://user-images.githubusercontent.com/80403988/142734409-b1f22e5c-6770-4c62-843c-b70d783805d2.png">
+
+<img width="258" alt="스크린샷 2021-11-21 오전 1 47 05" src="https://user-images.githubusercontent.com/80403988/142734414-66fe4a40-7800-419c-91e5-8a46fd5a344d.png">
+
+## UI 디자인
+
+<img width="381" alt="스크린샷 2021-11-21 오전 1 50 26" src="https://user-images.githubusercontent.com/80403988/142734538-97df50f3-c650-41c2-8b24-633ef481eb15.png">
+<img width="374" alt="스크린샷 2021-11-21 오전 1 50 31" src="https://user-images.githubusercontent.com/80403988/142734539-07806bf8-332c-4415-ad1b-ca74e7c64bfd.png">
+<img width="361" alt="스크린샷 2021-11-21 오전 1 50 40" src="https://user-images.githubusercontent.com/80403988/142734540-5df391e3-93e6-45fc-b20e-ee0f0f4ab2f4.png">
+<img width="350" alt="스크린샷 2021-11-21 오전 1 50 50" src="https://user-images.githubusercontent.com/80403988/142734541-80e0a3fc-6d62-4399-98fd-e8c1e871faa4.png">
+<img width="339" alt="스크린샷 2021-11-21 오전 1 50 55" src="https://user-images.githubusercontent.com/80403988/142734542-d67b2788-7be3-4bda-9f9f-14770bddd066.png">
+<img width="329" alt="스크린샷 2021-11-21 오전 1 50 59" src="https://user-images.githubusercontent.com/80403988/142734543-169822f3-3c95-4736-afe5-0b69a311987d.png">
+<img width="344" alt="스크린샷 2021-11-21 오전 1 51 05" src="https://user-images.githubusercontent.com/80403988/142734544-5914e8e9-6c04-4db0-85fe-a7b0a5c5ccca.png">
+<img width="347" alt="스크린샷 2021-11-21 오전 1 51 18" src="https://user-images.githubusercontent.com/80403988/142734545-7a5029e7-3d07-467b-a1f4-4e2491d79ac8.png">
+<img width="388" alt="스크린샷 2021-11-21 오전 1 51 29" src="https://user-images.githubusercontent.com/80403988/142734546-35560b33-3842-42e6-85f0-7a73f39d6a5d.png">
+
