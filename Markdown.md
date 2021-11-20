@@ -256,3 +256,18 @@ if (지원/취소 state) {
   
 }
 ```
+
+### 와이어프레임
+
+<img width="258" alt="스크린샷 2021-11-21 오전 1 31 24" src="https://user-images.githubusercontent.com/80403988/142734149-1ea1d714-eda5-44e6-8204-5d6936bd6083.png">
+
+<img width="256" alt="스크린샷 2021-11-21 오전 1 31 30" src="https://user-images.githubusercontent.com/80403988/142734151-55a21cb7-6513-4362-8b8a-c6a94e8d2717.png">
+
+<img width="256" alt="스크린샷 2021-11-21 오전 1 31 37" src="https://user-images.githubusercontent.com/80403988/142734155-a3ed0e2a-8c5b-4073-ab4a-856b7e3b4664.png">
+
+<img width="258" alt="스크린샷 2021-11-21 오전 1 31 43" src="https://user-images.githubusercontent.com/80403988/142734158-bc87f0a3-01e2-4d39-a360-d55d4660d1aa.png">
+
+<img width="257" alt="스크린샷 2021-11-21 오전 1 31 52" src="https://user-images.githubusercontent.com/80403988/142734161-8d1f0d46-830f-4820-8b46-4f8fe0231120.png">
+
+<img width="255" alt="스크린샷 2021-11-21 오전 1 31 59" src="https://user-images.githubusercontent.com/80403988/142734164-2dd9f57f-725c-457c-be75-1374dacb3944.png">
+
